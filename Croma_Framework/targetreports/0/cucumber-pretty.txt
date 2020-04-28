@@ -1,0 +1,18 @@
+Feature: Google Test
+
+  Scenario Outline: Search keywords in Google   [90m# C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:4[0m
+    [36mGiven [0m[36mGoogle homepage is open[0m
+    [36mWhen [0m[36mEnter "<searchKey>" in Search box[0m
+    [36mThen [0m[36mGoogle displays relevant search result[0m
+
+    Examples: 
+
+  Scenario Outline: Search keywords in Google   [90m# C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:10[0m
+    [32mGiven [0m[32mGoogle homepage is open[0m               [90m# MPOS.googleHomepageIsOpen()[0m
+    [32mWhen [0m[32mEnter "[0m[32m[1mUSA[0m[32m" in Search box[0m              [90m# MPOS.enterInSearchBox(String)[0m
+    [32mThen [0m[32mGoogle displays relevant search result[0m [90m# MPOS.googleDisplaysRelevantSearchResult()[0m
+
+  Scenario Outline: Search keywords in Google   [90m# C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:11[0m
+    [32mGiven [0m[32mGoogle homepage is open[0m               [90m# MPOS.googleHomepageIsOpen()[0m
+    [32mWhen [0m[32mEnter "[0m[32m[1mChina[0m[32m" in Search box[0m            [90m# MPOS.enterInSearchBox(String)[0m
+    [32mThen [0m[32mGoogle displays relevant search result[0m [90m# MPOS.googleDisplaysRelevantSearchResult()[0m

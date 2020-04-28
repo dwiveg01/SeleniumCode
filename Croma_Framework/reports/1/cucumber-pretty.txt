@@ -1,0 +1,14 @@
+Feature: Endless Aisle Product Listing Page API Testing
+  Description: Users should be able to submit GET requests to Product Listing Page API and should get correct response
+
+  Scenario Outline: TC#003_EndlessAisle_HomePage_Search_Box_Hitting_Enter [90m# C:/Dev Environment/intellij-workspace/MPOS_Suite/./src/test/resources/finalFeatures/EndlessAisleProductListingPageAPI.feature:5[0m
+    [36mGiven [0m[36mEndless Aisle End point URL is "<Endpoint_Url>"[0m
+    [36mAnd [0m[36mInput parameters are "<Parameters>"[0m
+    [36mAnd [0m[36mProduct Code is "<Product_Code>"[0m
+    [36mWhen [0m[36mUser send request with GET method and input parameters[0m
+    [36mThen [0m[36mAPI should send back appropriate response JSON[0m
+    [36mAnd [0m[36mJSON response should contain Product Code[0m
+    [36mAnd [0m[36mJSON response should contain Product Name[0m
+    [36mAnd [0m[36mAPI should return HTTP response code as SUCCESS 200[0m
+
+    Examples: 

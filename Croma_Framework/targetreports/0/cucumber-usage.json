@@ -1,0 +1,77 @@
+[
+  {
+    "source": "^Google homepage is open$",
+    "steps": [
+      {
+        "name": "Google homepage is open",
+        "aggregatedDurations": {
+          "average": 99.254133207,
+          "median": 99.254133207
+        },
+        "durations": [
+          {
+            "duration": 178.983299963,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:5"
+          },
+          {
+            "duration": 19.524966451,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"(.*)\" in Search box$",
+    "steps": [
+      {
+        "name": "Enter \"USA\" in Search box",
+        "aggregatedDurations": {
+          "average": 60.010812623,
+          "median": 60.010812623
+        },
+        "durations": [
+          {
+            "duration": 60.010812623,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"China\" in Search box",
+        "aggregatedDurations": {
+          "average": 21.138838118,
+          "median": 21.138838118
+        },
+        "durations": [
+          {
+            "duration": 21.138838118,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Google displays relevant search result$",
+    "steps": [
+      {
+        "name": "Google displays relevant search result",
+        "aggregatedDurations": {
+          "average": 30.73311864,
+          "median": 30.73311864
+        },
+        "durations": [
+          {
+            "duration": 31.384183395,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:7"
+          },
+          {
+            "duration": 30.082053885,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

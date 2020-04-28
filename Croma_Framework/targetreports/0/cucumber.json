@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Search keywords in Google",
+        "description": "",
+        "id": "google-test;search-keywords-in-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 178983299963,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Google homepage is open",
+            "match": {
+              "location": "MPOS.googleHomepageIsOpen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60010812623,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"USA\" in Search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USA",
+                  "offset": 7
+                }
+              ],
+              "location": "MPOS.enterInSearchBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31384183395,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Google displays relevant search result",
+            "match": {
+              "location": "MPOS.googleDisplaysRelevantSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Search keywords in Google",
+        "description": "",
+        "id": "google-test;search-keywords-in-google;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19524966451,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Google homepage is open",
+            "match": {
+              "location": "MPOS.googleHomepageIsOpen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21138838118,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"China\" in Search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "China",
+                  "offset": 7
+                }
+              ],
+              "location": "MPOS.enterInSearchBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30082053885,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Google displays relevant search result",
+            "match": {
+              "location": "MPOS.googleDisplaysRelevantSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Test",
+    "description": "",
+    "id": "google-test",
+    "keyword": "Feature",
+    "uri": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/MPOS.feature"
+  }
+]
