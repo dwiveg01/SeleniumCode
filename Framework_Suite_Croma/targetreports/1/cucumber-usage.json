@@ -1,0 +1,77 @@
+[
+  {
+    "source": "^Yahoo homepage is open$",
+    "steps": [
+      {
+        "name": "Yahoo homepage is open",
+        "aggregatedDurations": {
+          "average": 103.849565596,
+          "median": 103.849565596
+        },
+        "durations": [
+          {
+            "duration": 143.245699797,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:5"
+          },
+          {
+            "duration": 64.453431396,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"(.*)\" in Yahoo Search box$",
+    "steps": [
+      {
+        "name": "Enter \"USA\" in Yahoo Search box",
+        "aggregatedDurations": {
+          "average": 0.005389206,
+          "median": 0.005389206
+        },
+        "durations": [
+          {
+            "duration": 0.005389206,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"China\" in Yahoo Search box",
+        "aggregatedDurations": {
+          "average": 0.000739829,
+          "median": 0.000739829
+        },
+        "durations": [
+          {
+            "duration": 0.000739829,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Yahoo displays relevant search result$",
+    "steps": [
+      {
+        "name": "Yahoo displays relevant search result",
+        "aggregatedDurations": {
+          "average": 0.000134495,
+          "median": 0.000134495
+        },
+        "durations": [
+          {
+            "duration": 0.000138985,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:7"
+          },
+          {
+            "duration": 0.000130005,
+            "location": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

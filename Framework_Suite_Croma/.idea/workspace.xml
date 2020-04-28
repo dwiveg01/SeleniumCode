@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e600d375-c1fd-40e4-81e7-21801c0c1601" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZWHU9Jd8bw2OhC3wJTYlUPfPI7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev Environment\intellij-workspace\MPOS_Suite\src\test\resources\features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stepDefinitions" />
+      <recent name="runners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev Environment\intellij-workspace\MPOS_Suite\src\test\resources\features" />
+      <recent name="C:\DevEnvironment\IntelliJ Workspace\MPOS_Suite\src\test\features" />
+      <recent name="C:\DevEnvironment\IntelliJ Workspace\MPOS_Suite\src\test" />
+      <recent name="C:\DevEnvironment\IntelliJ Workspace\MPOS_Suite\src\test\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+      <command value="mvn clean package assembly:single" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainRunner">
+    <configuration name="MainRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runners.MainRunner" />
+      <module name="MPOS_Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepDefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: EndlessAisleHomePageAPI (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/finalFeatures/EndlessAisleHomePageAPI.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="MPOS_Suite" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: EndlessAisleHomePageAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC#001_EndlessAisle_HomePage_CMS_Template (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/finalFeatures/EndlessAisleHomePageAPI.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="MPOS_Suite" />
+      <option name="NAME_FILTER" value="^TC\#001_EndlessAisle_HomePage_CMS_Template$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^TC\#001_EndlessAisle_HomePage_CMS_Template$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC#001_EndlessAisle_HomePage_CMS_Template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC#001_EndlessAisle_HomePage_CMS_Template" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndlessAisleHomePageAPI.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="MPOS_Suite" />
+      <option name="NAME_FILTER" value="^TC\#001_EndlessAisle_HomePage_CMS_Template$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^TC\#001_EndlessAisle_HomePage_CMS_Template$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC#001_EndlessAisle_HomePage_CMS_Template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MPOS_Suite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainRunner" />
+        <item itemvalue="Cucumber java.Feature: EndlessAisleHomePageAPI (1)" />
+        <item itemvalue="Cucumber java.Scenario: TC#001_EndlessAisle_HomePage_CMS_Template (1)" />
+        <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="Cucumber java.Scenario: TC#001_EndlessAisle_HomePage_CMS_Template" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e600d375-c1fd-40e4-81e7-21801c0c1601" name="Default Changelist" comment="" />
+      <created>1584947952113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584947952113</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586164715207">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586164715207" />
+    <state x="442" y="206" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1586951583858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="206" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1586951583858" />
+    <state x="322" y="56" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585135676107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="56" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585135676107" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585294945156">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585294945156" />
+    <state x="402" y="79" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1587474576824">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="79" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1587474576824" />
+    <state x="353" y="137" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1586166373862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="353" y="137" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1366.728@0.0.1366.728" timestamp="1586166373862" />
+    <state x="438" y="29" key="#xdebugger.evaluate" timestamp="1587390335733">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="29" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1587390335733" />
+    <state width="417" height="441" key="DebuggerActiveHint" timestamp="1587390194263">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="417" height="441" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1587390194263" />
+    <state x="462" y="121" key="FileChooserDialogImpl" timestamp="1587030442667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587030442667" />
+    <state width="1323" height="492" key="GridCell.Tab.0.bottom" timestamp="1587985783315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom/0.0.1366.724@0.0.1366.724" timestamp="1586193634459" />
+    <state width="1323" height="492" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587985783315" />
+    <state width="1323" height="492" key="GridCell.Tab.0.center" timestamp="1587985783314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.center/0.0.1366.724@0.0.1366.724" timestamp="1586193634459" />
+    <state width="1323" height="492" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587985783314" />
+    <state width="1323" height="492" key="GridCell.Tab.0.left" timestamp="1587985783314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.left/0.0.1366.724@0.0.1366.724" timestamp="1586193634459" />
+    <state width="1323" height="492" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587985783314" />
+    <state width="1323" height="492" key="GridCell.Tab.0.right" timestamp="1587985783315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="181" key="GridCell.Tab.0.right/0.0.1366.724@0.0.1366.724" timestamp="1586193634459" />
+    <state width="1323" height="492" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587985783315" />
+    <state width="1323" height="510" key="GridCell.Tab.1.bottom" timestamp="1587478485380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.1.bottom/0.0.1366.724@0.0.1366.724" timestamp="1586193634412" />
+    <state width="1323" height="510" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587478485380" />
+    <state width="1323" height="510" key="GridCell.Tab.1.center" timestamp="1587478485380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.1.center/0.0.1366.724@0.0.1366.724" timestamp="1586193634412" />
+    <state width="1323" height="510" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587478485380" />
+    <state width="1323" height="510" key="GridCell.Tab.1.left" timestamp="1587478485380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.1.left/0.0.1366.724@0.0.1366.724" timestamp="1586193634412" />
+    <state width="1323" height="510" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587478485380" />
+    <state width="1323" height="510" key="GridCell.Tab.1.right" timestamp="1587478485380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.1.right/0.0.1366.724@0.0.1366.724" timestamp="1586193634412" />
+    <state width="1323" height="510" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587478485380" />
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1585909948755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1585909948755" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1585661478231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585661478231" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1587473733210">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1587473733210" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585046676208">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585046676208" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587991773767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587991773767" />
+    <state x="489" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585716928659">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1585716928659" />
+    <state x="454" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584959576844">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="83" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1584959576844" />
+    <state x="65" y="0" key="new project wizard" timestamp="1587122919708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587122919708" />
+    <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1584959088309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1584959088309" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1587028552642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587028552642" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587032049887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587032049887" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="layout.getConfiguration().getProperty(k)" />
+        <watch expression="layout.getConfiguration().getProperty(k).toString();" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

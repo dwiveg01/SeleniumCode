@@ -1,0 +1,18 @@
+Feature: Yahoo Test
+
+  Scenario Outline: Search keywords in Yahoo     [90m# C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:4[0m
+    [36mGiven [0m[36mYahoo homepage is open[0m
+    [36mWhen [0m[36mEnter "<searchKey>" in Yahoo Search box[0m
+    [36mThen [0m[36mYahoo displays relevant search result[0m
+
+    Examples: 
+
+  Scenario Outline: Search keywords in Yahoo   [90m# C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:10[0m
+    [32mGiven [0m[32mYahoo homepage is open[0m               [90m# YahooStepDef.yahooHomepageIsOpen()[0m
+    [32mWhen [0m[32mEnter "[0m[32m[1mUSA[0m[32m" in Yahoo Search box[0m       [90m# YahooStepDef.enterInYahooSearchBox(String)[0m
+    [32mThen [0m[32mYahoo displays relevant search result[0m [90m# YahooStepDef.yahooDisplaysRelevantSearchResult()[0m
+
+  Scenario Outline: Search keywords in Yahoo   [90m# C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature:11[0m
+    [32mGiven [0m[32mYahoo homepage is open[0m               [90m# YahooStepDef.yahooHomepageIsOpen()[0m
+    [32mWhen [0m[32mEnter "[0m[32m[1mChina[0m[32m" in Yahoo Search box[0m     [90m# YahooStepDef.enterInYahooSearchBox(String)[0m
+    [32mThen [0m[32mYahoo displays relevant search result[0m [90m# YahooStepDef.yahooDisplaysRelevantSearchResult()[0m

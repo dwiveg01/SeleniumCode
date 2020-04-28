@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="341.124154">
+<testcase classname="Google Test" name="Search keywords in Google" time="270.378296">
+<system-out><![CDATA[Given Google homepage is open...............................................passed
+When Enter "USA" in Search box..............................................passed
+Then Google displays relevant search result.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Test" name="Search keywords in Google" time="70.745858">
+<system-out><![CDATA[Given Google homepage is open...............................................passed
+When Enter "China" in Search box............................................passed
+Then Google displays relevant search result.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

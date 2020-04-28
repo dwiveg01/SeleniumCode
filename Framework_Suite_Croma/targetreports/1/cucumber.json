@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Search keywords in Yahoo",
+        "description": "",
+        "id": "yahoo-test;search-keywords-in-yahoo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143245699797,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Yahoo homepage is open",
+            "match": {
+              "location": "YahooStepDef.yahooHomepageIsOpen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5389206,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"USA\" in Yahoo Search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USA",
+                  "offset": 7
+                }
+              ],
+              "location": "YahooStepDef.enterInYahooSearchBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138985,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Yahoo displays relevant search result",
+            "match": {
+              "location": "YahooStepDef.yahooDisplaysRelevantSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Search keywords in Yahoo",
+        "description": "",
+        "id": "yahoo-test;search-keywords-in-yahoo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 64453431396,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Yahoo homepage is open",
+            "match": {
+              "location": "YahooStepDef.yahooHomepageIsOpen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 739829,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"China\" in Yahoo Search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "China",
+                  "offset": 7
+                }
+              ],
+              "location": "YahooStepDef.enterInYahooSearchBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130005,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Yahoo displays relevant search result",
+            "match": {
+              "location": "YahooStepDef.yahooDisplaysRelevantSearchResult()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Yahoo Test",
+    "description": "",
+    "id": "yahoo-test",
+    "keyword": "Feature",
+    "uri": "C:/DevEnvironment/IntelliJ Workspace/MPOS_Suite/./src/test/resources/features/Yahoo.feature"
+  }
+]
